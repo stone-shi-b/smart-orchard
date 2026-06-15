@@ -12,7 +12,10 @@ color:#333;
 
 .hero{
 height:100vh;
-background:url("images/cover.JPG") center center/cover;
+background-image:url("images/cover.JPG");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 position:relative;
 }
 
