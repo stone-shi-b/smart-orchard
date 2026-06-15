@@ -96,7 +96,7 @@ submitBtn.addEventListener("click", async function () {
     updatePrice();
 
   } catch (error) {
-    alert("提交失败，请检查网络或数据库设置");
+    alert("提交失败：" + error.message);
     console.error(error);
   }
 });
